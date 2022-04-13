@@ -18,6 +18,11 @@ namespace UserRegistrationProblem
             validateUser.validateEmailId("prasadanduri@gmail.com");
             Console.WriteLine("---------------------------------------");
             validateUser.validateMobileNumber("9133090222");
+            Console.WriteLine("---------------------------------------");
+            validateUser.validatePassword("prasad13");
+            Console.WriteLine("---------------------------------------");
+
+
             Console.ReadKey();
         }
     }
